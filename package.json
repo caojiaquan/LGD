@@ -1,0 +1,16 @@
+{
+  "name": "LGD",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "adm-zip": "^0.4.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "yog2 release start -cwd --fis3",
+    "origin": "yog2 release origin -cwd --fis3"
+  },
+  "author": "",
+  "license": "ISC"
+}
