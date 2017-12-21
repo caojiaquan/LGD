@@ -143,11 +143,13 @@
 
         //添加时间过滤器
         template.registerFunction('dateFormat', function (date, format) {
+            console.log('<<<', date);
             date = new Date(date);
+            console.log('>>>>>>>>>', date);
             var map = {
                 "M": date.getMonth() + 1, //月份 
                 "d": date.getDate(), //日 
-                "h": date.getHours(), //小时 
+                "h": date.getHours()+8, //小时 
                 "m": date.getMinutes(), //分 
                 "s": date.getSeconds(), //秒 
                 "q": Math.floor((date.getMonth() + 3) / 3), //季度 

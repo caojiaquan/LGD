@@ -11,7 +11,7 @@ const MODEL = INATANCE.define('t_zip_url', {
     postman_name: Sequelize.STRING(100),
     postman_id: Sequelize.BIGINT,
     zip_src: Sequelize.STRING(100),
-    upload_date: Sequelize.STRING,
+    upload_date: Sequelize.DATE,
     originalname: Sequelize.STRING,
     viewurl: Sequelize.STRING
 }, {
